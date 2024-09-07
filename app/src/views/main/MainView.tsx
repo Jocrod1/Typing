@@ -7,7 +7,7 @@ import useTyper from "../../hooks/useTyper";
 const MainView = () => {
   const { gameStateRef, BeginGame, FinishGame, timeLeft } = useGameManager();
 
-  const [displayText, setDisplayText] = useState<string[]>([
+  const [displayText] = useState<string[]>([
     ..."Lorem ipsum Dolor".split(""),
     " ",
   ]);
